@@ -5,10 +5,10 @@ while loop1:
     print("Hello")
     print("This is the hours calculator")
 
-    total = 0
 
     loop = True
     while loop:
+        total = 0 
         A = int(input("how many days did they work?: "))
         for i in range(1,A+1):
             startinp1 = float(input("What time did they start on day " + str(i) + "?: "))
